@@ -2,11 +2,10 @@
 
 ## Virtual Machines
 
-### Vagrant
+### Vagrant 2.2.18
 
-```bash
-brew install vagrant
-```
+- Vagrant: [release 2.2.18](https://releases.hashicorp.com/vagrant/2.2.18)
+- Install: vagrant_2.2.18_x86_64.dmg
 
 ### VMware Fusion
 
@@ -47,6 +46,7 @@ Vagrant.configure("2") do |config|
   config.vm.synced_folder "./share", "/share"
 
   config.vm.provider "vmware_desktop" do |vb|
+    vb.ssh_info_public = true
     vb.cpus = 2
     vb.memory = "2048"
   end
