@@ -12,6 +12,9 @@ brew install vagrant
 
 - VMware Fusion Public Technology Preview 21H1 (for ARM): [Download](https://customerconnect.vmware.com/downloads/get-download?downloadGroup=FUS-PUBTP-2021H1)
 - Vagrant: [FAQ](https://www.vagrantup.com/docs/providers/vmware/faq#q-how-do-i-use-the-vmware-fusion-tech-preview)
+- Vagrant VMWare Utility: [Download](https://www.vagrantup.com/vmware/downloads)
+  - It says x86_64 but it is fine.v
+- gist: [Vagrant and VMWare Tech Preview on Apple M1 Pro](https://gist.github.com/sbailliez/f22db6434ac84eccb6d3c8833c85ad92)
 
 ```bash
 sudo ln -s /Applications/VMware\ Fusion\ Tech\ Preview.app /Applications/VMware\ Fusion.app
